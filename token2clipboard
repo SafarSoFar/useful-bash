@@ -1,0 +1,4 @@
+# A bash script to get token from clipboard without reading a token text file. 
+#  Set that only trusted users can run the script.
+
+echo "YOUR TOKEN" | xclip -selection clipboard
